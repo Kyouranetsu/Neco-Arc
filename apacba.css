@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(13, 102, 102);
+    color: white;
+    align-items: center;
+    padding: 20px;
+}
+
+.nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav li {
+    padding-left: 25px;
+}
+
+.nav a {
+    text-decoration: none;
+    color:white;
+}
+
+.nav a:hover {
+    color:gold;
+    transition: ease 1.5s;
+}
+.hello{
+    margin-top: 100px;
+    padding: 0 80px;
+    align-items: center;
+}
+.hello h1 {
+    font-size: 135px;
+}
+.hello h2{
+    font-size: 60px;
+}
+.hello span {
+    color:red;
+}
+.pelajaran{
+    margin-top: 100px;
+    padding: 0 80px
+}
+.pelajaran h4{
+    font-size: 30px;
+}
+.pelajaran hr{
+    margin-bottom: 25px;
+}
+.daftar-pelajaran{
+    font-size: 25px;
+    display: flex;
+}
+.item-pelajaran {
+    padding-right: 50px;
+}
+
+.hubungi {
+    margin-top: 100px;
+    padding: 0 80px
+}
+.hubungi h4 {
+    font-size: 30px;
+}
+.hubungi hr {
+    margin-bottom: 25px;
+}
+
+.kontak{
+    padding: 0 80px
+}
+.kontak p { 
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.kontak span {
+    color: red;
+}
